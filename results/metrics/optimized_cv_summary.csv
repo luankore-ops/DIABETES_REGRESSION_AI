@@ -1,0 +1,4 @@
+Model,Best_CV_MAE,CV_MAE_std,Best_params
+Ridge,44.99887949243905,1.8079421279860648,"{""model__alpha"": 1.0}"
+GradientBoosting,46.5392993382403,2.8560038055361225,"{""learning_rate"": 0.1, ""max_depth"": 1, ""min_samples_leaf"": 3, ""n_estimators"": 300}"
+RandomForest,47.42463854249718,2.5692490192842565,"{""max_depth"": null, ""min_samples_leaf"": 8, ""n_estimators"": 200}"

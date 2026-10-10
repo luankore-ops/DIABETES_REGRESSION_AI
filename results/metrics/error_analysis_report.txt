@@ -1,0 +1,16 @@
+DIABETES REGRESSION AI - ERROR ANALYSIS
+============================================================
+
+Osservazioni nel test set: 89
+
+Metriche dei modelli:
+           Model       MAE      RMSE       R2  Mean_Error  Median_Absolute_Error  Max_Absolute_Error
+GradientBoosting 41.575445 53.010858 0.469598   -0.276779              33.868166          164.699855
+    RandomForest 42.467227 52.842816 0.472955    0.069357              40.545996          135.254655
+LinearRegression 42.794095 53.853446 0.452603   -3.912840              37.988200          154.493375
+           Ridge 42.811999 53.777454 0.454147   -3.946051              37.379349          153.386383
+
+Miglior MAE sul test set: GradientBoosting
+MAE: 41.5754
+
+Nota: il test set è stato consultato nelle fasi precedenti. I risultati sono utili per l'analisi didattica, ma non costituiscono una valutazione finale completamente indipendente.
